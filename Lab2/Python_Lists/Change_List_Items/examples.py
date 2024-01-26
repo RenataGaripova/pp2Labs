@@ -12,14 +12,14 @@ thislist[1:3] = ["blackcurrant", "watermelon"]
 print(thislist) #output: ['apple', 'blackcurrant', 'watermelon' 'orange', 'kiwi', 'mango']
 
 
-#ex8
+#ex3
 
 thislist = ["apple", "banana", "cherry"]
 thislist[1:2] = ["blackcurrant", "watermelon"]
 print(thislist) #['apple', 'blackcurrant', 'watermelon', 'cherry']
 
 
-#ex9
+#ex4
 
 thislist = ["apple", "banana", "cherry"]
 thislist[1:3] = ["watermelon"]
