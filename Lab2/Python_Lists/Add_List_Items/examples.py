@@ -25,4 +25,4 @@ print(thislist) #output: ['apple', 'banana', 'cherry', 'mango', 'pineapple', 'pa
 thislist = ["apple", "banana", "cherry"]
 thistuple = ("kiwi", "orange")
 thislist.extend(thistuple)
-print(thislist)
+print(thislist) #output: ['apple', 'banana', 'cherry', 'kiwi', 'orange']
