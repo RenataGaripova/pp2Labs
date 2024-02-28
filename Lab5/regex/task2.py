@@ -2,6 +2,6 @@ import re
 
 s = input()
 
-x = re.search('abbb?', s)
+x = re.search('abbb+', s)
 
 print(x)

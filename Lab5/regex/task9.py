@@ -1,7 +1,6 @@
 import re
 
 s = input()
-x = re.findall('[A-Z]{1}', s)
-s = ' '.join(x)
 
-print(s)
+x = re.sub(r"(\w)([A-Z])", r"\1 \2", s)
+print(x)
